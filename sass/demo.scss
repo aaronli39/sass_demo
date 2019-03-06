@@ -1,8 +1,9 @@
 // ---------
 // variables
 // ---------
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: blue;
+$background-color: grey;
 
 body {
   font-family: $font-stack;
@@ -39,8 +40,8 @@ body {
 //   transform: $property;
 // }
 
-// .box { 
-//   @include transform(rotate(30deg)); 
+// .box {
+//   @include transform(rotate(30deg));
 // }
 
 // @mixin media($queryString){
@@ -67,7 +68,7 @@ body {
 //   color: #333;
 // }
 
-// // won't print 
+// // won't print
 // %equal-heights {
 //   display: flex;
 //   flex-wrap: wrap;
