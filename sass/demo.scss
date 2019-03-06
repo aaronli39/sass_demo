@@ -1,9 +1,8 @@
 // ---------
 // variables
 // ---------
-$font-stack: Helvetica, sans-serif;
+$font-stack:    Helvetica, sans-serif;
 $primary-color: blue;
-$background-color: grey;
 
 body {
   font-family: $font-stack;
@@ -91,4 +90,28 @@ body {
 // .warning {
 //   @extend %message-shared;
 //   border-color: yellow;
+// }
+
+// ---------
+// functions
+// ---------
+// @function getColumnWidth($width, $columns,$margin){
+//     @return ($width / $columns) - ($margin * 2);
+// }
+
+// $container-width: 100%;
+// $column-count: 4;
+// $margin: 1%;
+
+// .container {
+//   width: $container-width;
+// }
+
+// .column {
+//   background: #1abc9c;
+//   height: 200px;
+//   display: block;
+//   float: left;
+//   width: getColumnWidth($container-width, $column-count, $margin);
+//   margin: 0 $margin;
 // }
